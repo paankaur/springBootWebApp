@@ -2,18 +2,14 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Ohayo</title>
+    <title>素敵なウェブサイト</title>
     <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}">
 </head>
 <!--style="background-color:yellow; display: flex; flex-direction: column; align-items: center"-->
 <body class="p-1">
-<div class="text-center">
+<div class="container-fluid text-center">
     <h1 style="color: purple">Welcome fr fr</h1>
-    <div style="display: flex; flex-direction: row">
-        <button style="padding-bottom: 45px;padding-top: 10px; width: 200px; margin-right:10px; border-bottom-left-radius: 15px;border-top-right-radius: 15px">Run the scripts</button>
-        <button style="padding-top: 45px; padding-bottom: 10px; width: 200px; margin-right:10px; border-bottom-left-radius: 15px;border-top-right-radius: 15px">Pause the scripts</button>
-    </div>
-        <h2><a href="/users">Manage users</a></h2>
+        <a class="h2" href=@{/users}>Manage users</a>
 </div>
 
 </body>
